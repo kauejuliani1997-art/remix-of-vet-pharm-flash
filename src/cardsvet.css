@@ -196,9 +196,8 @@
   .trust-line { text-align: center; margin-top: 3rem; font-size: 0.88rem; color: rgba(255,255,255,.75); }
 
   /* GUARANTEE SEAL (new standalone section) */
-  .guarantee-seal { width: 8rem; height: 8rem; border-radius: 9999px; margin: 2.5rem auto; display: flex; align-items: center; justify-content: center; flex-direction: column; background: radial-gradient(circle at 35% 30%, hsl(36,87%,68%), hsl(36,70%,45%)); box-shadow: 0 15px 35px rgba(0,0,0,.15); color: hsl(30,60%,18%); border: 4px solid hsl(36,60%,88%); }
-  .guarantee-seal strong { font-size: 1.7rem; line-height: 1; }
-  .guarantee-seal span { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 0.2rem; }
+  .guarantee-seal { width: 10rem; height: 10rem; border-radius: 9999px; margin: 2.5rem auto; display: flex; align-items: center; justify-content: center; background: var(--branco); box-shadow: 0 15px 35px rgba(0,0,0,.15); border: 4px solid hsl(36,60%,88%); overflow: hidden; }
+  .guarantee-seal img { width: 100%; height: 100%; object-fit: contain; }
 
   /* REVIEWER */
   .reviewer { max-width: 40rem; margin: 0 auto; text-align: center; }
