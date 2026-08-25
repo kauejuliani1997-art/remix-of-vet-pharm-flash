@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import "../cardsvet.css";
 import { Countdown } from "../components/Countdown";
 import flashcardMeloxicam from "../assets/flashcard-meloxicam.png.asset.json";
+import guaranteeSeal from "../assets/guarantee-seal.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -602,8 +603,7 @@ function Index() {
     <div className="wrap-narrow">
       <h2 style={{ fontSize: "clamp(1.4rem,2.6vw,1.9rem)" }}>7-Day <span className="accent">Guarantee</span></h2>
       <div className="guarantee-seal">
-        <strong>7</strong>
-        <span>Day&nbsp;Guarantee</span>
+        <img src={guaranteeSeal.url} alt="7-day guarantee seal" />
       </div>
       <p style={{ maxWidth: "34rem", margin: "0 auto", color: "var(--cinza)", fontSize: "1rem", lineHeight: "1.6" }}>Yes, an unconditional 7-day guarantee. If you don&rsquo;t like it, we&rsquo;ll refund you, no questions asked.</p>
     </div>
