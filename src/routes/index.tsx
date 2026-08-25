@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import "../cardsvet.css";
 import { Countdown } from "../components/Countdown";
+import flashcardMeloxicam from "../assets/flashcard-meloxicam.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -130,18 +131,7 @@ function Index() {
       <div className="section-head">
         <h2 style={{ fontSize: "1.5rem" }}>Inside a flashcard</h2>
       </div>
-      <img src="https://cardsvet.netlify.app/assets/meloxicam-lg-CEcbR_ch.webp" alt="Close-up of the meloxicam flashcard, showing indication, class, route, dose per species, precautions, and contraindication" className="showcase-img small" loading="lazy" />
-      <img src="https://cardsvet.netlify.app/assets/cards-impressos-CIwkXO3O.webp" alt="Printed CardsVet flashcards on a desk, ready to use" className="showcase-img" loading="lazy" />
-      <div className="gallery-grid">
-        <img src="https://cardsvet.netlify.app/assets/como-calcular-a-dose-B3EJ6PtO.webp" alt="CardsVet flashcard showing how to calculate the dose, with the formula and a worked example" className="gallery-img" loading="lazy" />
-        <img src="https://cardsvet.netlify.app/assets/acepromazina-CqJph8i4.webp" alt="CardsVet flashcard on acepromazine, with dose per species and the brachycephalic warning" className="gallery-img" loading="lazy" />
-        <img src="https://cardsvet.netlify.app/assets/xilazina-CGyo2xdY.webp" alt="CardsVet flashcard on xylazine, showing cattle are about ten times more sensitive than horses" className="gallery-img" loading="lazy" />
-        <img src="https://cardsvet.netlify.app/assets/morfina-9N54cTff.webp" alt="CardsVet flashcard on morphine, with dose per species and its antagonist" className="gallery-img" loading="lazy" />
-        <img src="https://cardsvet.netlify.app/assets/tramadol-Deto37EA.webp" alt="CardsVet flashcard on tramadol, with the difference in response between dogs and cats" className="gallery-img" loading="lazy" />
-        <img src="https://cardsvet.netlify.app/assets/dipirona-DCHNW3lD.webp" alt="CardsVet flashcard on dipyrone, with the hematologic risk in cats" className="gallery-img" loading="lazy" />
-        <img src="https://cardsvet.netlify.app/assets/meloxicam-BR1PDdgt.webp" alt="CardsVet flashcard on meloxicam, a preferential COX-2 inhibitor NSAID" className="gallery-img" loading="lazy" />
-        <img src="https://cardsvet.netlify.app/assets/amoxicilina-clavulanato-B7etmS4G.webp" alt="CardsVet flashcard on amoxicillin + clavulanate" className="gallery-img" loading="lazy" />
-      </div>
+      <img src={flashcardMeloxicam.url} alt="CardsVet flashcard for Meloxicam, showing indication, class, dosing per species, precautions, and contraindications" className="showcase-img" loading="lazy" />
     </div>
   </section>
 
