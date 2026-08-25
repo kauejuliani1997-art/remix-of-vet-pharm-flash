@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import "../cardsvet.css";
 import { Countdown } from "../components/Countdown";
+import flashcardMeloxicam from "../assets/flashcard-meloxicam.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
