@@ -561,7 +561,13 @@ function Index() {
         </div>
       </div>
 
-      <p className="trust-line">&#128737;&#65039; 7-day guarantee &middot; Secure payment &middot; Instant download</p>
+      <div className="badge-line trust-line">
+        <span>🛡️ 7-day guarantee</span>
+        <span className="badge-dot">&middot;</span>
+        <span>🔒 Secure payment</span>
+        <span className="badge-dot">&middot;</span>
+        <span>⚡ Instant download</span>
+      </div>
     </div>
   </section>
 
