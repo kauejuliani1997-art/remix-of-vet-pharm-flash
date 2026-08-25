@@ -82,8 +82,9 @@
 
   /* HERO BADGE LINE (was one plain text line, now 3 chips -- same words, split) */
   .badge-line { margin-top: 1.25rem; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center; gap: 0.45rem; }
-  .badge-line span { font-size: 0.8rem; color: hsl(20, 75%, 62%); background: transparent; border: none; padding: 0; border-radius: 0; white-space: nowrap; }
+  .badge-line span { font-size: 0.8rem; color: var(--branco); background: transparent; border: none; padding: 0; border-radius: 0; white-space: nowrap; }
   .badge-line .badge-dot { opacity: .75; }
+  .badge-line.trust-line { color: var(--branco); margin-top: 3rem; }
   @media (max-width: 520px) {
     .badge-line { gap: 0.3rem; }
     .badge-line span { font-size: 0.62rem; }
