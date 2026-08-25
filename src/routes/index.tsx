@@ -93,23 +93,31 @@ function Index() {
 
       <div className="feature-grid">
         <div className="feature-card">
-          <div className="feature-icon" style={{ background: "#f0d9c5" }}>&#127919;</div>
-          <h4>Prescribe with confidence</h4>
+          <div className="feature-row">
+            <div className="feature-icon" style={{ background: "#f0d9c5" }}>&#127919;</div>
+            <h4>Prescribe with confidence</h4>
+          </div>
           <p>The right dose, route, and contraindications for each species, all in one place.</p>
         </div>
         <div className="feature-card">
-          <div className="feature-icon" style={{ background: "#cfe3e0" }}>&#9201;&#65039;</div>
-          <h4>Look it up in seconds</h4>
+          <div className="feature-row">
+            <div className="feature-icon" style={{ background: "#cfe3e0" }}>&#9201;&#65039;</div>
+            <h4>Look it up in seconds</h4>
+          </div>
           <p>One drug per flashcard. No scrolling, no searching, no opening the textbook.</p>
         </div>
         <div className="feature-card">
-          <div className="feature-icon" style={{ background: "#f4d7d7" }}>&#128737;&#65039;</div>
-          <h4>Lower risk at the point of care</h4>
+          <div className="feature-row">
+            <div className="feature-icon" style={{ background: "#f4d7d7" }}>&#128737;&#65039;</div>
+            <h4>Lower risk at the point of care</h4>
+          </div>
           <p>The species alert sits right in front of you, before you calculate the dose.</p>
         </div>
         <div className="feature-card">
-          <div className="feature-icon" style={{ background: "#d9e6cf" }}>&#128218;</div>
-          <h4>Works for exams too</h4>
+          <div className="feature-row">
+            <div className="feature-icon" style={{ background: "#d9e6cf" }}>&#128218;</div>
+            <h4>Works for exams too</h4>
+          </div>
           <p>The same material you use on rotation is what you review for exams and residency.</p>
         </div>
       </div>
