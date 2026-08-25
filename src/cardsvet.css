@@ -220,6 +220,7 @@
     section { padding: 3.5rem 0; }
   }
   @media (max-width: 520px) {
+    .feature-grid { grid-template-columns: 1fr; }
     .module-list { grid-template-columns: 1fr; }
     .bonus-block { flex-direction: column; text-align: center; }
   }
