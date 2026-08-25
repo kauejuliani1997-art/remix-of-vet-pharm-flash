@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import "../cardsvet.css";
-import { Countdown } from "@/components/Countdown";
+import { Countdown } from "../components/Countdown";
 
 export const Route = createFileRoute("/")({
   component: Index,
