@@ -76,9 +76,11 @@ function Index() {
 
       <a href="#pricing" className="cta-btn">I WANT MY FLASHCARDS</a>
       <div className="badge-line">
-        <span>Instant download</span>
-        <span>PDF for phone and print</span>
-        <span>One-time payment</span>
+        <span>🔒 Secure checkout</span>
+        <span className="badge-dot">•</span>
+        <span>⚡ Instant access</span>
+        <span className="badge-dot">•</span>
+        <span>🛡️ 7-day guarantee</span>
       </div>
     </div>
   </section>
