@@ -223,3 +223,17 @@
     .module-list { grid-template-columns: 1fr; }
     .bonus-block { flex-direction: column; text-align: center; }
   }
+
+/* Pulse effect on call-to-action buttons */
+@keyframes cardsvet-pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 10px 25px rgba(0,0,0,.18); }
+  50% { transform: scale(1.045); box-shadow: 0 16px 34px rgba(0,0,0,.26); }
+}
+.cta-btn, .plan-btn {
+  animation: cardsvet-pulse 1.8s ease-in-out infinite;
+  will-change: transform;
+}
+.cta-btn:hover, .plan-btn:hover { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .cta-btn, .plan-btn { animation: none; }
+}
