@@ -3,6 +3,7 @@ import "../cardsvet.css";
 import { Countdown } from "../components/Countdown";
 import flashcardMeloxicam from "../assets/flashcard-meloxicam.png.asset.json";
 import guaranteeSeal from "../assets/guarantee-seal.jpg.asset.json";
+import heroMockup from "../assets/hero-mockup.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -42,37 +43,8 @@ function Index() {
       <h1>150 flashcards for <span className="accent">veterinary pharmacology</span>, with the dose, route, and contraindications for every drug</h1>
       <p className="sub">Dog, cat, horse, and cattle &mdash; the dose for every species, ready to check in seconds.</p>
 
-      <div className="carousel">
-        <div className="carousel-track">
-          <img src="https://cardsvet.netlify.app/assets/como-calcular-a-dose-B3EJ6PtO.webp" alt="CardsVet flashcard showing how to calculate the dose, with the formula and a worked example" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/acepromazina-CqJph8i4.webp" alt="CardsVet flashcard on acepromazine, with dose per species and the brachycephalic warning" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/xilazina-CGyo2xdY.webp" alt="CardsVet flashcard on xylazine, showing cattle are about ten times more sensitive than horses" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/morfina-9N54cTff.webp" alt="CardsVet flashcard on morphine, with dose per species and its antagonist" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/tramadol-Deto37EA.webp" alt="CardsVet flashcard on tramadol, with the difference in response between dogs and cats" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/dipirona-DCHNW3lD.webp" alt="CardsVet flashcard on dipyrone, with the hematologic risk in cats" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/meloxicam-BR1PDdgt.webp" alt="CardsVet flashcard on meloxicam, a preferential COX-2 inhibitor NSAID" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/amoxicilina-clavulanato-B7etmS4G.webp" alt="CardsVet flashcard on amoxicillin + clavulanate" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/enrofloxacina-d1xPfMJp.webp" alt="CardsVet flashcard on enrofloxacin" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/ivermectina-B8w6A_la.webp" alt="CardsVet flashcard on ivermectin, with the MDR1 sensitivity warning" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/prednisolona-XNEVsMV9.webp" alt="CardsVet flashcard on prednisolone" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/adrenalina-C_Sj2qmO.webp" alt="CardsVet flashcard on epinephrine, with the CPR protocol dose" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/fluidoterapia-DG0-VopN.webp" alt="CardsVet flashcard on fluid therapy, maintenance and shock rates" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/n-acetilcisteina-D1ahA__U.webp" alt="CardsVet flashcard on N-acetylcysteine, the antidote for paracetamol toxicity" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/como-calcular-a-dose-B3EJ6PtO.webp" alt="CardsVet flashcard showing how to calculate the dose, with the formula and a worked example" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/acepromazina-CqJph8i4.webp" alt="CardsVet flashcard on acepromazine, with dose per species and the brachycephalic warning" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/xilazina-CGyo2xdY.webp" alt="CardsVet flashcard on xylazine, showing cattle are about ten times more sensitive than horses" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/morfina-9N54cTff.webp" alt="CardsVet flashcard on morphine, with dose per species and its antagonist" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/tramadol-Deto37EA.webp" alt="CardsVet flashcard on tramadol, with the difference in response between dogs and cats" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/dipirona-DCHNW3lD.webp" alt="CardsVet flashcard on dipyrone, with the hematologic risk in cats" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/meloxicam-BR1PDdgt.webp" alt="CardsVet flashcard on meloxicam, a preferential COX-2 inhibitor NSAID" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/amoxicilina-clavulanato-B7etmS4G.webp" alt="CardsVet flashcard on amoxicillin + clavulanate" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/enrofloxacina-d1xPfMJp.webp" alt="CardsVet flashcard on enrofloxacin" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/ivermectina-B8w6A_la.webp" alt="CardsVet flashcard on ivermectin, with the MDR1 sensitivity warning" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/prednisolona-XNEVsMV9.webp" alt="CardsVet flashcard on prednisolone" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/adrenalina-C_Sj2qmO.webp" alt="CardsVet flashcard on epinephrine, with the CPR protocol dose" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/fluidoterapia-DG0-VopN.webp" alt="CardsVet flashcard on fluid therapy, maintenance and shock rates" className="carousel-card" loading="lazy" />
-          <img src="https://cardsvet.netlify.app/assets/n-acetilcisteina-D1ahA__U.webp" alt="CardsVet flashcard on N-acetylcysteine, the antidote for paracetamol toxicity" className="carousel-card" loading="lazy" />
-        </div>
+      <div className="hero-mockup">
+        <img src={heroMockup.url} alt="CardsVet veterinary pharmacology flashcards shown on tablet, phone, and printed cards" loading="lazy" />
       </div>
 
       <a href="#pricing" className="cta-btn">I WANT MY FLASHCARDS</a>
