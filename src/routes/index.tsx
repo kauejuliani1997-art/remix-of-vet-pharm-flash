@@ -9,6 +9,10 @@ import cardAcvim from "../assets/card-acvim-staging.png.asset.json";
 import cardAtenolol from "../assets/card-atenolol.png.asset.json";
 import cardImidacloprid from "../assets/card-imidacloprid.png.asset.json";
 import cardAlbendazole from "../assets/card-albendazole.png.asset.json";
+import bonus01Img from "../assets/bonus01.png";
+import bonus02Img from "../assets/bonus02.png";
+import bonus03Img from "../assets/bonus03.png";
+import bonus04Img from "../assets/bonus04.png";
 
 const heroCards = [
   { src: cardOmeprazole.url, alt: "CardsVet flashcard on omeprazole, a proton pump inhibitor" },
@@ -121,9 +125,6 @@ function Index() {
   
   <section className="cream">
     <div className="wrap">
-      <div className="section-head">
-        <h2 style={{ fontSize: "1.5rem" }}>From the PDF to your <span className="accent">coat pocket</span></h2>
-      </div>
       <img src={flashcardMeloxicam.url} alt="CardsVet flashcard for Meloxicam, showing indication, class, dosing per species, precautions, and contraindications" className="showcase-img" loading="lazy" />
     </div>
   </section>
