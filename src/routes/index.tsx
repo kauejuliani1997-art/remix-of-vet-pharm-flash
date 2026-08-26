@@ -83,12 +83,6 @@ function Index() {
   
   <section>
     <div className="wrap">
-      <div className="section-head">
-        <span className="tag-pill">Veterinary Pharmacology Flashcards</span>
-        <h2>From the PDF to your <span className="accent">coat pocket</span></h2>
-        <p>Every flashcard follows the same structure. Learn to read one, and you already know how to read them all.</p>
-      </div>
-
       <div className="feature-grid">
         <div className="feature-card">
           <div className="feature-row">
@@ -124,8 +118,13 @@ function Index() {
 
   
   <section className="cream">
-    <div className="wrap">
-      <img src={flashcardMeloxicam.url} alt="CardsVet flashcard for Meloxicam, showing indication, class, dosing per species, precautions, and contraindications" className="showcase-img" loading="lazy" />
+<div className="wrap">
+<div className="section-head">
+<span className="tag-pill">Veterinary Pharmacology Flashcards</span>
+<h2>From the PDF to your <span className="accent">coat pocket</span></h2>
+<p>Every flashcard follows the same structure. Learn to read one, and you already know how to read them all.</p>
+</div>
+<img src={flashcardMeloxicam.url} alt="CardsVet flashcard for Meloxicam, showing indication, class, dosing per species, precautions, and contraindications" className="showcase-img" loading="lazy" />
     </div>
   </section>
 
