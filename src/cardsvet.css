@@ -224,6 +224,9 @@
 
   /* FINAL CTA (new -- reuses the exact hero button + note text) */
   .final-cta { text-align: center; }
+  .final-cta .wrap { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
+  .final-cta .cta-btn { margin-top: 0; }
+  .final-cta .badge-line { margin-top: 0; }
 
   /* FOOTER (new -- the one genuinely new line on the page) */
   footer { text-align: center; padding: 2rem 1.5rem; font-size: 0.8rem; color: var(--cinza); border-top: 1px solid var(--borda); }
