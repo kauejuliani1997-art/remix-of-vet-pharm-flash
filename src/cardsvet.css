@@ -181,6 +181,9 @@
   .bonus-price .strike { text-decoration: line-through; color: var(--cinza); opacity: 0.75; }
   .bonus-price strong { font-size: 1.15rem; color: var(--verde); }
   .bonus-price .free-tag { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; background: var(--verde); color: var(--branco); padding: 0.25rem 0.55rem; border-radius: 9999px; }
+  .bonus-total { text-align: center; margin-top: 2.5rem; font-size: 1.05rem; color: var(--grafite); }
+  .bonus-total .strike { text-decoration: line-through; color: var(--cinza); opacity: 0.8; font-weight: 700; }
+  .bonus-total strong { color: var(--verde); font-weight: 800; }
 
   /* PRICING -- stacked single column (was a 2-column side-by-side grid) */
   .pricing-stack { display: flex; flex-direction: column; gap: 1.75rem; max-width: 36rem; margin: 3.5rem auto 0; }
@@ -237,6 +240,7 @@
     .feature-grid { grid-template-columns: 1fr; }
     .module-list { grid-template-columns: 1fr; }
     .bonus-grid { grid-template-columns: 1fr; }
+    .bonus-mockup { aspect-ratio: 16 / 9; }
     .bonus-mockup > span:first-child { font-size: 3rem; }
   }
 

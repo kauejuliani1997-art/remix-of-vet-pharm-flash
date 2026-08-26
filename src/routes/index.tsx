@@ -508,6 +508,7 @@ function Index() {
           <div className="bonus-price"><span className="strike">$8.90</span> <strong>$0</strong> <span className="free-tag">FREE</span></div>
         </div>
       </div>
+      <p className="bonus-total">Total value of bonuses: <span className="strike">$39.60</span> — <strong>FREE</strong> when you get it today</p>
     </div>
   </section>
 
