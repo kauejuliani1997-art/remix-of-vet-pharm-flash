@@ -55,7 +55,7 @@
   .center { text-align: center; }
 
   /* HERO */
-  .hero { padding-top: 5.5rem; padding-bottom: 4rem; text-align: center; }
+  .hero { padding-top: 2.5rem; padding-bottom: 4rem; text-align: center; }
   .hero h1 { font-size: clamp(1.9rem, 4.2vw, 3.1rem); max-width: 56rem; margin: 0 auto; }
   .hero .sub { margin: 1.75rem auto 0; max-width: 40rem; font-size: 1.1rem; color: rgba(255,255,255,.82); }
   .cta-btn {
