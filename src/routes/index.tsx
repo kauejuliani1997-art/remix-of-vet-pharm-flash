@@ -464,7 +464,7 @@ function Index() {
   
   <section className="cream">
     <div className="wrap">
-      <h3 className="bonus-head">Plus 5 bonuses included in the Complete Plan</h3>
+      <h3 className="bonus-head">Plus 4 bonuses included in the Complete Plan</h3>
       <div className="bonus-stack">
         <div className="bonus-block">
           <div className="bonus-block-icon">&#127873;</div>
@@ -497,15 +497,6 @@ function Index() {
           <div className="bonus-block-icon">&#127873;</div>
           <div className="bonus-block-body">
             <span className="bonus-block-ribbon">Bonus 04</span>
-            <h4>20 Annotated Clinical Cases on Therapeutic Choice</h4>
-            <p>Puppies/kittens, pregnant, cardiac, and renal patients, solved step by step.</p>
-          </div>
-        </div>
-
-        <div className="bonus-block">
-          <div className="bonus-block-icon">&#127873;</div>
-          <div className="bonus-block-body">
-            <span className="bonus-block-ribbon">Bonus 05</span>
             <h4>7-Day Study Schedule Using the Flashcards</h4>
             <p>For anyone using the material for exams or residency.</p>
           </div>
@@ -554,7 +545,6 @@ function Index() {
             <li><span className="check-round">&#10003;</span>&#127873; Dose &amp; Dilution Conversion Chart</li>
             <li><span className="check-round">&#10003;</span>&#127873; A4 Poster of Drugs Prohibited by Species</li>
             <li><span className="check-round">&#10003;</span>&#127873; Checklist of the 10 Most Common Prescription Errors</li>
-            <li><span className="check-round">&#10003;</span>&#127873; 20 Annotated Clinical Cases</li>
             <li><span className="check-round">&#10003;</span>&#127873; 7-Day Study Schedule</li>
             <li><span className="check-round">&#10003;</span>7-day guarantee</li>
           </ul>
