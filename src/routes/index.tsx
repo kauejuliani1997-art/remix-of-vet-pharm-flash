@@ -122,7 +122,7 @@ function Index() {
   <section className="cream">
     <div className="wrap">
       <div className="section-head">
-        <h2 style={{ fontSize: "1.5rem" }}>Inside a flashcard</h2>
+        <h2 style={{ fontSize: "1.5rem" }}>From PDF to the pocket of your lab coat</h2>
       </div>
       <img src={flashcardMeloxicam.url} alt="CardsVet flashcard for Meloxicam, showing indication, class, dosing per species, precautions, and contraindications" className="showcase-img" loading="lazy" />
     </div>
