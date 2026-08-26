@@ -199,6 +199,7 @@
   .price-card.featured .check-round { background: var(--azul-profundo); }
   .plan-btn { display: block; text-align: center; width: 100%; padding: 0.95rem; border-radius: 9999px; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.02em; border: none; cursor: pointer; background: transparent; color: var(--branco); border: 1.5px solid rgba(255,255,255,.4); text-decoration: none; }
   .price-card.featured .plan-btn { background: var(--azul-profundo); color: var(--branco); border-color: var(--azul-profundo); }
+  .plan-btn.no-pulse { animation: none !important; }
   .price-note { text-align: center; font-size: 0.82rem; color: rgba(255,255,255,.6); margin-top: 1rem; }
   .trust-line { text-align: center; margin-top: 3rem; font-size: 0.88rem; color: rgba(255,255,255,.75); }
 
