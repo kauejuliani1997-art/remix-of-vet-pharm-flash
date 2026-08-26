@@ -3,6 +3,21 @@ import "../cardsvet.css";
 import { Countdown } from "../components/Countdown";
 import flashcardMeloxicam from "../assets/flashcard-meloxicam.png.asset.json";
 import guaranteeSeal from "../assets/guarantee-seal.jpg.asset.json";
+import cardOmeprazole from "../assets/card-omeprazole.png.asset.json";
+import cardFamotidine from "../assets/card-famotidine.png.asset.json";
+import cardAcvim from "../assets/card-acvim-staging.png.asset.json";
+import cardAtenolol from "../assets/card-atenolol.png.asset.json";
+import cardImidacloprid from "../assets/card-imidacloprid.png.asset.json";
+import cardAlbendazole from "../assets/card-albendazole.png.asset.json";
+
+const heroCards = [
+  { src: cardOmeprazole.url, alt: "CardsVet flashcard on omeprazole, a proton pump inhibitor" },
+  { src: cardFamotidine.url, alt: "CardsVet flashcard on famotidine, an H2 receptor antagonist" },
+  { src: cardAcvim.url, alt: "CardsVet flashcard on ACVIM staging of myxomatous mitral valve disease" },
+  { src: cardAtenolol.url, alt: "CardsVet flashcard on atenolol, a cardioselective beta-blocker" },
+  { src: cardImidacloprid.url, alt: "CardsVet flashcard on imidacloprid, a neonicotinoid insecticide" },
+  { src: cardAlbendazole.url, alt: "CardsVet flashcard on albendazole, a benzimidazole anthelmintic" },
+];
 
 export const Route = createFileRoute("/")({
   component: Index,
