@@ -460,7 +460,7 @@ function Index() {
       <div className="bonus-grid">
         <div className="bonus-card">
           <div className="bonus-mockup">
-            <span>&#128202;</span>
+            <img src={bonus01Img} alt="CardsVet bonus mockup: Dose &amp; Dilution Conversion Chart" className="bonus-mockup-img" loading="lazy" />
             <span className="bonus-mockup-tag">BONUS 01</span>
           </div>
           <h4>Ready-to-Use Dose &amp; Dilution Conversion Chart</h4>
@@ -470,7 +470,7 @@ function Index() {
 
         <div className="bonus-card">
           <div className="bonus-mockup">
-            <span>&#128220;</span>
+            <img src={bonus02Img} alt="CardsVet bonus mockup: Drugs to Avoid by Species poster" className="bonus-mockup-img" loading="lazy" />
             <span className="bonus-mockup-tag">BONUS 02</span>
           </div>
           <h4>Printable A4 Poster of Drugs Prohibited by Species</h4>
@@ -480,7 +480,7 @@ function Index() {
 
         <div className="bonus-card">
           <div className="bonus-mockup">
-            <span>&#9989;</span>
+            <img src={bonus03Img} alt="CardsVet bonus mockup: 10 Most Common Veterinary Prescription Errors checklist" className="bonus-mockup-img" loading="lazy" />
             <span className="bonus-mockup-tag">BONUS 03</span>
           </div>
           <h4>Checklist of the 10 Most Common Veterinary Prescription Errors</h4>
@@ -490,7 +490,7 @@ function Index() {
 
         <div className="bonus-card">
           <div className="bonus-mockup">
-            <span>&#128197;</span>
+            <img src={bonus04Img} alt="CardsVet bonus mockup: 7-Day Study Schedule" className="bonus-mockup-img" loading="lazy" />
             <span className="bonus-mockup-tag">BONUS 04</span>
           </div>
           <h4>7-Day Study Schedule Using the Flashcards</h4>
