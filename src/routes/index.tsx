@@ -464,42 +464,48 @@ function Index() {
   
   <section className="cream">
     <div className="wrap">
-      <h3 className="bonus-head">Plus 4 bonuses included in the Complete Plan</h3>
-      <div className="bonus-stack">
-        <div className="bonus-block">
-          <div className="bonus-block-icon">&#127873;</div>
-          <div className="bonus-block-body">
-            <span className="bonus-block-ribbon">Bonus 01</span>
-            <h4>Ready-to-Use Dose &amp; Dilution Conversion Chart</h4>
-            <p>From mg/kg to mL, with the most common dilutions &mdash; calculate without errors.</p>
+      <div className="section-head">
+        <h2><span className="accent">Exclusive</span> Bonus</h2>
+      </div>
+      <div className="bonus-grid">
+        <div className="bonus-card">
+          <div className="bonus-mockup">
+            <span>&#128202;</span>
+            <span className="bonus-mockup-tag">BONUS 01</span>
           </div>
+          <h4>Ready-to-Use Dose &amp; Dilution Conversion Chart</h4>
+          <p>From mg/kg to mL, with the most common dilutions &mdash; calculate without errors.</p>
+          <div className="bonus-price"><span className="strike">$9.90</span> <strong>$0</strong> <span className="free-tag">FREE</span></div>
         </div>
 
-        <div className="bonus-block">
-          <div className="bonus-block-icon">&#127873;</div>
-          <div className="bonus-block-body">
-            <span className="bonus-block-ribbon">Bonus 02</span>
-            <h4>Printable A4 Poster of Drugs Prohibited by Species</h4>
-            <p>Print it and pin it up on the clinic or lab wall.</p>
+        <div className="bonus-card">
+          <div className="bonus-mockup">
+            <span>&#128220;</span>
+            <span className="bonus-mockup-tag">BONUS 02</span>
           </div>
+          <h4>Printable A4 Poster of Drugs Prohibited by Species</h4>
+          <p>Print it and pin it up on the clinic or lab wall.</p>
+          <div className="bonus-price"><span className="strike">$7.90</span> <strong>$0</strong> <span className="free-tag">FREE</span></div>
         </div>
 
-        <div className="bonus-block">
-          <div className="bonus-block-icon">&#127873;</div>
-          <div className="bonus-block-body">
-            <span className="bonus-block-ribbon">Bonus 03</span>
-            <h4>Checklist of the 10 Most Common Veterinary Prescription Errors</h4>
-            <p>What causes the most dosing errors, and how to avoid each one.</p>
+        <div className="bonus-card">
+          <div className="bonus-mockup">
+            <span>&#9989;</span>
+            <span className="bonus-mockup-tag">BONUS 03</span>
           </div>
+          <h4>Checklist of the 10 Most Common Veterinary Prescription Errors</h4>
+          <p>What causes the most dosing errors, and how to avoid each one.</p>
+          <div className="bonus-price"><span className="strike">$12.90</span> <strong>$0</strong> <span className="free-tag">FREE</span></div>
         </div>
 
-        <div className="bonus-block">
-          <div className="bonus-block-icon">&#127873;</div>
-          <div className="bonus-block-body">
-            <span className="bonus-block-ribbon">Bonus 04</span>
-            <h4>7-Day Study Schedule Using the Flashcards</h4>
-            <p>For anyone using the material for exams or residency.</p>
+        <div className="bonus-card">
+          <div className="bonus-mockup">
+            <span>&#128197;</span>
+            <span className="bonus-mockup-tag">BONUS 04</span>
           </div>
+          <h4>7-Day Study Schedule Using the Flashcards</h4>
+          <p>For anyone using the material for exams or residency.</p>
+          <div className="bonus-price"><span className="strike">$8.90</span> <strong>$0</strong> <span className="free-tag">FREE</span></div>
         </div>
       </div>
     </div>
