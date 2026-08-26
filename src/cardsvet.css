@@ -230,12 +230,14 @@
     .gallery-grid { grid-template-columns: repeat(2, 1fr); }
     .pain-grid { grid-template-columns: 1fr; }
     .module-list { grid-template-columns: repeat(2, 1fr); }
+    .bonus-grid { grid-template-columns: repeat(2, 1fr); }
     section { padding: 3.5rem 0; }
   }
   @media (max-width: 520px) {
     .feature-grid { grid-template-columns: 1fr; }
     .module-list { grid-template-columns: 1fr; }
-    .bonus-block { flex-direction: column; text-align: center; }
+    .bonus-grid { grid-template-columns: 1fr; }
+    .bonus-mockup > span:first-child { font-size: 3rem; }
   }
 
 /* Pulse effect on call-to-action buttons */
