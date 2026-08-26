@@ -536,8 +536,7 @@ function Index() {
             <li><span className="check-round">&#10003;</span>Free updates whenever the drug label or its regulatory approval changes</li>
             <li><span className="check-round">&#10003;</span>7-day guarantee</li>
           </ul>
-          <a href="#" className="plan-btn">I WANT JUST THE BASIC PLAN</a>
-          <p className="price-note">There&rsquo;s a better deal right next to this one</p>
+          <a href="#" className="plan-btn no-pulse">I WANT JUST THE BASIC PLAN</a>
         </div>
 
         <div className="price-card featured">
