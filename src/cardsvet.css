@@ -240,6 +240,7 @@
     .feature-grid { grid-template-columns: 1fr; }
     .module-list { grid-template-columns: 1fr; }
     .bonus-grid { grid-template-columns: 1fr; }
+    .bonus-mockup { aspect-ratio: 16 / 9; }
     .bonus-mockup > span:first-child { font-size: 3rem; }
   }
 
